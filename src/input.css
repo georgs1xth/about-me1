@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Helvetica-Bold';
+    src: url('../fonts/Helvetica-Bold-font.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+
+.helvetica{
+    font-family: 'Helvetica-Bold';
+}
+
+.mask-main {
+    -webkit-mask-image: url('../public/mask-main.svg');
+    mask-image: url('../public/mask-main.svg');
+    mask-repeat: no-repeat;
+}
+
+.hey {
+    font-size: 5.25rem /* 72px */;
+    line-height: 1;
+} 
+
+.sancreek-regular {
+    font-family: "Sancreek", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-hobby {
+    font-size: 2.5rem /* 36px */;
+    line-height: 1 /* 40px */;
+}
+
+.lato-thin {
+  font-family: "Lato",;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato",;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato",;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato",;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato",;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato",;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato",;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato",;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato",;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato",;
+  font-weight: 900;
+  font-style: italic;
+}
