@@ -557,7 +557,7 @@ video {
 @font-face {
   font-family: 'Helvetica-Bold';
 
-  src: url('../fonts/Helvetica-Bold-font.ttf')  format('truetype'),
+  src: url('../fonts/Helvetica-Bold-Font.ttf')  format('truetype'),
 
   /* Safari, Android, iOS */
 }
