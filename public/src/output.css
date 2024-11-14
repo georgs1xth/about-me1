@@ -567,8 +567,8 @@ video {
 }
 
 .mask-main {
-  -webkit-mask-image: url('../public/mask-main.svg');
-  mask-image: url('../public/mask-main.svg');
+  -webkit-mask-image: url('../static/mask-main.svg');
+  mask-image: url('../static/mask-main.svg');
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
 }
