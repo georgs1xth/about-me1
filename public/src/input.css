@@ -4,33 +4,34 @@
 
 @font-face {
     font-family: 'Helvetica-Bold';
-    src: url('../fonts/Helvetica-Bold-font.ttf')  format('truetype'), /* Safari, Android, iOS */
+    src: url('../fonts/Helvetica-Bold-Font.ttf')  format('truetype'), /* Safari, Android, iOS */
   }
 
 .helvetica{
-    font-family: 'Helvetica-Bold';
+  font-family: 'Helvetica-Bold';
 }
 
 .mask-main {
-    -webkit-mask-image: url('../public/mask-main.svg');
-    mask-image: url('../public/mask-main.svg');
-    mask-repeat: no-repeat;
+  -webkit-mask-image: url('../static/mask-main.svg');
+  mask-image: url('../static/mask-main.svg');
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
 }
 
 .hey {
-    font-size: 5.25rem /* 72px */;
-    line-height: 1;
-} 
+  font-size: 5.25rem /* 72px */;
+  line-height: 1;
+}
 
 .sancreek-regular {
-    font-family: "Sancreek", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Sancreek", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .text-hobby {
-    font-size: 2.5rem /* 36px */;
-    line-height: 1 /* 40px */;
+  font-size: 2.5rem /* 36px */;
+  line-height: 1 /* 40px */;
 }
 
 .lato-thin {
