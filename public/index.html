@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <title>Hey</title>
 </head>
-<body class="w-full h-screen flex justify-center">
+<body class="w-full h-screen flex justify-center pt-6">
     <!-- WRAPPER MAIN CONTENT -->
     <div class="w-full max-w-[1440px]">
         <!-- HEADER -->
@@ -44,8 +44,8 @@
             <section class="w-full flex gap-48 justify-center" >
                 <!-- HELLO SECTION -->
                 <div class="flex flex-col gap-2 relative mt-8">
-                    <h1 class="font-sans hey tracking-tighter">
-                        // Hey, it’s
+                    <h1 class="font-sans hey tracking-tighter" id="hero-code">
+
                     </h1>
                     <h1 class="helvetica text-9xl tracking-tight">
                         Georgiy
@@ -63,9 +63,9 @@
                 </div>
             </section>
             <!-- ABOUT ME SECTION -->
-            <section class="w-full grid gap-[54px] grid-cols-3 px-24 mt-36" id="about-me">
+            <section class="w-full grid lg:gap-10 grid-cols-2 xl:gap-[54px] xl:grid-cols-3 px-24 mt-36" id="about-me">
                 <!-- Software developer -->
-                <div class="flex flex-col items-center bg-[#E00D0D] rounded-xl p-4 aspect-[380/250] relative">
+                <div id="about-software" class="hover:-top-4 hover:shadow-2xl shadow-black flex flex-col items-center bg-[#E00D0D] rounded-xl p-4 aspect-[380/250] relative transition-all top-48 duration-1000 hover:duration-400">
 
                     <h3 class="text-center text-white sancreek-regular text-hobby">
                         Software<br>Developer
@@ -79,7 +79,7 @@
                     <svg class="absolute left-2 -top-5 -rotate-[9.5deg]" width="61" height="101" viewBox="0 0 61 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M60.8427 35.4424C60.8427 54.8695 30.8427 100.267 30.8427 100.267C30.8427 100.267 0.842651 54.8695 0.842651 35.4424C0.842651 16.0153 14.2741 0.266541 30.8427 0.266541C47.4112 0.266541 60.8427 16.0153 60.8427 35.4424Z" fill="black"/>
                     </svg>
-                    <svg class="absolute left-2 -top-3" width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg id="about-me-software-icon" class="absolute left-2 -top-3 duration-1000 transition-all " width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_11_47)">
                         <path d="M26.4963 37.3598C26.1938 36.6794 25.7145 36.0925 25.1083 35.6602C24.5021 35.2278 23.7912 34.9658 23.0494 34.9014L9.89939 33.7607C9.6741 33.7357 9.46313 33.6379 9.29849 33.482C9.13385 33.3262 9.02453 33.121 8.98711 32.8974C8.94969 32.6739 8.98621 32.4442 9.09114 32.2433C9.19607 32.0423 9.36368 31.8811 9.56853 31.7841L21.63 26.4214C22.3101 26.1192 22.8969 25.6402 23.3293 25.0344C23.7617 24.4286 24.024 23.718 24.0888 22.9766L25.2294 9.82658C25.2536 9.60055 25.3512 9.38867 25.5072 9.22327C25.6631 9.05786 25.8689 8.94802 26.0931 8.91049C26.3173 8.87296 26.5477 8.9098 26.749 9.01541C26.9503 9.12101 27.1115 9.28958 27.2081 9.49538L32.5666 21.5575C32.8691 22.2379 33.3484 22.8248 33.9546 23.2572C34.5608 23.6895 35.2718 23.9515 36.0135 24.016L49.1632 25.1545C49.39 25.178 49.6028 25.2753 49.7689 25.4314C49.9351 25.5875 50.0455 25.7938 50.0831 26.0187C50.1208 26.2435 50.0836 26.4745 49.9773 26.6762C49.871 26.8779 49.7015 27.0392 49.4947 27.1353L37.4326 32.4938C36.7522 32.7963 36.1653 33.2756 35.733 33.8818C35.3006 34.488 35.0386 35.199 34.9742 35.9407L33.8335 49.0907C33.8093 49.3168 33.7117 49.5286 33.5558 49.694C33.3998 49.8594 33.194 49.9693 32.9698 50.0068C32.7456 50.0444 32.5153 50.0075 32.3139 49.9019C32.1126 49.7963 31.9514 49.6277 31.8548 49.4219L26.4963 37.3598Z" fill="white"/>
                         <path d="M42.8741 8.21448L44.2498 16.4335L42.8741 8.21448Z" fill="white"/>
@@ -106,7 +106,7 @@
                     </svg>           
                 </div>
                 <!-- Compsci Major -->
-                <div class="flex flex-col items-center bg-[#40862F] rounded-xl py-4 px-7 aspect-[380/400] relative ">
+                <div id="about-compsci" class="hover:-top-4 hover:shadow-2xl shadow-black flex flex-col items-center bg-[#40862F] rounded-xl py-4 px-7 aspect-[380/400] relative transition-all top-60 duration-1000 hover:duration-400">
                     <h3 class="text-center text-white sancreek-regular text-hobby relative z-10">
                         Compsci<br>Major
                     </h3>
@@ -155,7 +155,7 @@
                     </svg>                        
                 </div>
                 <!-- Hobbies -->
-                <div class="flex flex-col items-center bg-[#202020] rounded-xl p-4 aspect-[380/550]">
+                <div id="about-hobbies" class="hover:-top-4 hover:shadow-2xl shadow-black flex flex-col items-center bg-[#202020] rounded-xl p-4 aspect-[380/550] relative transition-all top-72 duration-1000 hover:duration-400">
                     <div class="text-center text-white sancreek-regular">
                         <h3 class="text-hobby">
                             Just a man
@@ -234,10 +234,10 @@
                         TODO:
                     </h1>
                     <h1 class="helvetica text-9xl tracking-tighter w-fit">
-                        Add a staircase 
+                        Add something
                     </h1>
                     <h1 class="helvetica text-9xl tracking-tighter w-fit">
-                        and me climbing up it.
+                        creative down here.
                     </h1>
                 </div>
             </section>
@@ -278,5 +278,130 @@
             </div>
         </footer>
     </div>
+    <script>
+        // TODO: Hero section
+    
+        let i = 0;
+        let txt = "// Hey, it’s"; /* The text */
+        let speed = 100; /* The speed/duration of the effect */
+    
+        let heroCode = document.getElementById("hero-code");
+        
+        function typeWriter() 
+        {
+            let j = 0;
+            let txt2 = "Hello, I'm";
+            function typeWriter2() {
+                if (j < txt2.length) {
+                    heroCode.innerHTML += txt2.charAt(j);
+                    j++;
+                    setTimeout(typeWriter2, speed);
+                }
+                else
+                {
+
+                    setTimeout(typeUnWriter, 1000);
+                }
+            }
+            setTimeout(typeWriter2, 500);
+
+            let h = heroCode.innerHTML.length;
+            function typeUnWriter() {
+                    // TODO: delete each character of heroCode.innerHTML with speed = 100                    
+                if (h > 0) {
+                    heroCode.innerHTML = heroCode.innerHTML.slice(0, -1);
+                    h--;
+                    setTimeout(typeUnWriter, speed);
+                }
+                else{
+                    typeWriterCorrect();
+                }
+            }
+        }
+
+        function typeWriterCorrect() {
+            if (i < txt.length) 
+            {
+                heroCode.innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriterCorrect, speed);
+            }
+            else
+            {
+                addPipe(5);
+            }
+        }
+    
+        function addPipe(pipeCount) {
+            function addAndRemovePipe(count) {
+                if (count > 0) {
+                    heroCode.innerHTML += "|";
+                    setTimeout(() => {
+                        heroCode.innerHTML = heroCode.innerHTML.slice(0, -1);
+                        setTimeout(() => {
+
+                            addAndRemovePipe(count - 1);
+                        }, 500)
+                    }, 500);
+                }
+            }
+            addAndRemovePipe(pipeCount);
+        }
+
+        // Works a second after loading the website
+        setTimeout(typeWriter, 1000);
+
+        // About me section
+        aboutSoftware = document.getElementById("about-software");
+        aboutCompsci = document.getElementById("about-compsci");
+        aboutHobbies = document.getElementById("about-hobbies");
+
+        let isShown = false;
+        window.addEventListener("scroll", function(){
+            let value = window.scrollY;
+            console.log(value)
+            if(value > 200 && !isShown)
+            {
+                aboutSoftware.classList.remove("top-48");
+                aboutSoftware.classList.add("top-0");
+                aboutCompsci.classList.remove("top-60");
+                aboutCompsci.classList.add("top-0");
+                aboutHobbies.classList.remove("top-72");
+                aboutHobbies.classList.add("top-0");
+                isShown = True;
+            }
+            
+        })
+        
+        // About me - Software Developer section
+        
+        aboutMeSoftwareIcon = document.getElementById('about-me-software-icon')
+        
+        // TODO: make particles (aboutMeSoftwareIcon) look like particles        
+        
+        aboutMeSoftwareIcon.classList.add("rotate-[5deg]");
+        
+        function animateParticles() {
+            if (aboutMeSoftwareIcon.classList.contains("rotate-[5deg]"))
+            {
+                aboutMeSoftwareIcon.classList.remove("rotate-[5deg]");
+                aboutMeSoftwareIcon.classList.add("opacity-20");
+            }
+            else
+            {
+                aboutMeSoftwareIcon.classList.remove("opacity-20");
+                aboutMeSoftwareIcon.classList.add("rotate-[5deg]");
+            }
+            setTimeout(
+                animateParticles, 1000
+            )
+        }
+        animateParticles();
+        
+
+        // function animateBrackets
+
+
+    </script>
 </body>
 </html>
