@@ -505,14 +505,17 @@
             }, 1000);
         }        
         function setCounterZero(){
+            indusPohorony.innerHTML += ': Overfed!'
+            indusImage.classList.remove('grayscale');
+            indusPohorony.classList.add('hidden');
             foodCounter = 0;
+            return;
         }
         
         // TODO: onclick property for buttons
         const setZeroBtn = document.getElementById("set-zero-btn");
         const feedBtn = document.getElementById("feed-btn");
 
-        
         setZeroBtn.onclick = setCounterZero;
         feedBtn.onclick = feedTheIndus;
         
