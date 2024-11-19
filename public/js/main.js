@@ -1,3 +1,4 @@
+
 function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -185,11 +186,22 @@ function feedTheIndus()
         }, 2000);
     }, 1000);
 }        
+function setCounterZero(){
+    indusPohorony.innerHTML = 'WASTED';
+    indusImage.classList.remove('grayscale');
+    indusPohorony.classList.add('hidden');
+    foodCounter = 0;
+    return;
+}
 
+// TODO: onclick property for buttons
+const setZeroBtn = document.getElementById("set-zero-btn");
 const feedBtn = document.getElementById("feed-btn");
 
-// TODO: onclick of feedBtn call the feedTheIndus function
+setZeroBtn.onclick = setCounterZero;
 feedBtn.onclick = feedTheIndus;
+
+
 
 // TODO: Hero section
 
@@ -325,4 +337,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-
